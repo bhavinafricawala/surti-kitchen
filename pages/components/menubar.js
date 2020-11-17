@@ -5,12 +5,14 @@ const MenuBar = () => {
 	return (
   <Navbar bg="light" expand="lg">
     <div className="container">
-      <Navbar.Brand href="#home">Surti Kitichen</Navbar.Brand>
+      <Navbar.Brand href=".">
+        <img src="/logo.png" alt="logo" width="100px" />
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="#deets">Menu</Nav.Link>
-          <Nav.Link eventKey={2} href="#memes">
+          <Nav.Link href="/menu" className="navlink">Menu</Nav.Link>
+          <Nav.Link href="/contact" className="navlink">
             Contact
           </Nav.Link>
         </Nav>
