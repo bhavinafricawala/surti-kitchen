@@ -1,0 +1,12 @@
+.navbar {
+	padding: 15px 0px;
+	position: fixed;
+	width: 100%;
+	border-radius: 0px 0px 50px 50px;
+	transition: height 0.3s ease-out, background 0.3s ease-out, box-shadow 0.3s ease-out;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+	/* z-index: 100; */
+}
