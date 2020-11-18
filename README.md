@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First get the files from Github and then install all the node modules to configure the directory as shown below.
 
-Install ESLint and Prettier extentions in VS Code to maintain coding standards and clean code.
+Install ESLint and Prettier extensions in VS Code to maintain coding standards and clean code.
 
 ```bash
 use git clone https://github.com/bhavinafricawala/surti-kitchen.git
