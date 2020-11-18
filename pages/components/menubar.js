@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 const MenuBar = ({ pagename }) => {
     return (
         <Navbar bg="light" expand="lg">
-            <div className="container">
+            <Container>
                 <Navbar.Brand href=".">
                     <img src="/logo.png" alt="logo" width="100px" />
                     <span className="logoText">Surti Kitchen</span>
@@ -23,7 +24,7 @@ const MenuBar = ({ pagename }) => {
                         </li>
                     </ul>
                 </Navbar.Collapse>
-            </div>
+            </Container>
         </Navbar>
     );
 };

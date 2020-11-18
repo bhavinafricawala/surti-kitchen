@@ -1,5 +1,4 @@
 import MenuBar from './components/menubar';
-import React from 'react';
 import Footer from './components/footer';
 
 const Contact = () => {

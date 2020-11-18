@@ -4,7 +4,7 @@ import { Carousel } from 'react-bootstrap';
 const Slides = () => {
     return (
         <div className="overlay-background cover-slides">
-            <Carousel className="cover-slides">
+            <Carousel className="cover-slides" interval="5000">
                 <Carousel.Item>
                     <img className="d-block w-100" src="/food/slide1.jpg" alt="First slide" />
                     <Carousel.Caption>
