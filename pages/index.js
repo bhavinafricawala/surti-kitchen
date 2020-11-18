@@ -7,7 +7,7 @@ import Slides from './components/slides';
 import styles from '../styles/Home.module.css';
 import Footer from './components/footer';
 
-export default function Home() {
+const Home = () => {
     return (
         <div>
             <header className="top-navbar">
@@ -39,4 +39,6 @@ export default function Home() {
             </div>
         </div>
     );
-}
+};
+
+export default Home;

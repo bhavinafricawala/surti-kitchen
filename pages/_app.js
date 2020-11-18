@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-props-no-spreading */
 
 import React from 'react';
@@ -7,8 +8,8 @@ import '../styles/navbar.css';
 import '../styles/slide.css';
 import '../styles/footer.css';
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
     return <Component {...pageProps} />;
-}
+};
 
 export default MyApp;

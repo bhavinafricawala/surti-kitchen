@@ -11,7 +11,7 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col>
-                        <FontAwesomeIcon icon="phone" size="md" />
+                        <FontAwesomeIcon icon="phone" />
                         <div className="overflow-hidden">
                             <h4>Phone</h4>
                             <p className="lead">(443) 467-1561</p>
