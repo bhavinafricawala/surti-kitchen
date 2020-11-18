@@ -1,0 +1,31 @@
+/*---- Slides ----*/
+.cover-slides {
+	height: 100vh;
+}
+
+.cover-slides h1 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 500;
+	font-size: 64px;
+}
+
+.cover-slides p {
+	font-size: 20px;
+	color: #fff;
+}
+
+.overlay-background {
+	background-color: #000;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.carousel-caption {
+	bottom: 300px;
+	left: 300px;
+	text-align: left;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: whitesmoke;
+}
