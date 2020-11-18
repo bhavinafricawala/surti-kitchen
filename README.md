@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+The project is using Boostrap CSS React components and FontAwesome CSS.
+
 ## Getting Started
 
 First get the files from Github and then install all the node modules to configure the directory as shown below.
