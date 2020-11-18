@@ -1,24 +1,35 @@
 {
-	"name": "surti-kitchen",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"export": "npm run build && next export"
-	},
-	"dependencies": {
-		"@fortawesome/fontawesome": "^1.1.8",
-		"@fortawesome/fontawesome-free-solid": "^5.0.13",
-		"@fortawesome/fontawesome-svg-core": "^1.2.32",
-		"@fortawesome/free-brands-svg-icons": "^5.15.1",
-		"@fortawesome/free-solid-svg-icons": "^5.15.1",
-		"@fortawesome/react-fontawesome": "^0.1.12",
-		"bootstrap": "^4.5.3",
-		"next": "10.0.1",
-		"react": "17.0.1",
-		"react-bootstrap": "^1.4.0",
-		"react-dom": "17.0.1"
-	}
+    "name": "surti-kitchen",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "export": "npm run build && next export",
+        "lint": "eslint --fix .",
+        "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome": "^1.1.8",
+        "@fortawesome/fontawesome-free-solid": "^5.0.13",
+        "@fortawesome/fontawesome-svg-core": "^1.2.32",
+        "@fortawesome/free-brands-svg-icons": "^5.15.1",
+        "@fortawesome/free-solid-svg-icons": "^5.15.1",
+        "@fortawesome/react-fontawesome": "^0.1.12",
+        "bootstrap": "^4.5.3",
+        "next": "10.0.1",
+        "react": "17.0.1",
+        "react-bootstrap": "^1.4.0",
+        "react-dom": "17.0.1"
+    },
+    "devDependencies": {
+        "eslint": "^7.13.0",
+        "eslint-config-prettier": "^6.15.0",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-react": "^7.21.5",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "prettier": "^2.1.2"
+    }
 }
