@@ -7,7 +7,6 @@ const Menu = () => {
         <div>
             <header className="top-navbar">
                 <MenuBar pagename="menu" />
-                <Footer />
             </header>
         </div>
     );

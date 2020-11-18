@@ -7,7 +7,6 @@ const Contact = () => {
         <div>
             <header className="top-navbar">
                 <MenuBar pagename="contact" />
-                <Footer />
             </header>
         </div>
     );
